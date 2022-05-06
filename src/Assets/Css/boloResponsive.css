@@ -1,0 +1,53 @@
+@media(max-width:835px){
+    .divNucleodaSectionDois{
+        display: none;
+    }
+
+    .divNucleodaSection{
+        width: 700px;
+    }
+
+    .sectionTresBolo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .cadastrar{
+        width: 748px;
+    }
+}
+
+@media(max-width:415px){
+    .cardsDepreços{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons{
+        margin-top: 28px;
+    }
+
+    .pPreco{
+        margin-top: 5px;
+    }
+
+    .alinhamentoDoCadastrar{
+        margin-right: 0px;
+    }
+
+    .sectionTresBolo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cadastrar{
+        max-width: 300px;
+    }
+
+    .divNucleodaSectionParteUm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

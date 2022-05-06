@@ -1,0 +1,32 @@
+.footer{
+    background-color: var(--marrom);
+    height: 150px;
+}
+
+.alinhamento{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.direitos{
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--primeira);
+    display: flex;
+}
+
+.paraMais{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer img{
+    width: 60px;
+    height: 60px;
+    margin-left: 41px;
+    margin-top: 45px;
+}

@@ -1,0 +1,86 @@
+main{
+    height: 100%;
+}
+
+/* Primeira seção */
+.cupcakes{
+    width: 100%;
+    height: 600px;
+}
+
+.sectionHomeUm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.divBolos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-top: 80px;
+}
+
+.bolosAlinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bolos{
+    width: 320px;
+    height: 320px;
+}
+
+.descricaoBolos{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 43px;
+    margin-bottom: 85px;
+}
+
+/* Segunda seção */
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhamentoSaibaMais{
+    width: 80%;
+    display: flex;
+    margin-top: 81px;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.infosSaibaMais{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.tamanhoTextoHome{
+    font-size: 20px;
+    font-weight: 400px;
+    max-width: 234px;
+}
+
+.buttomSaibaMais{
+    background-color: var(--segunda);
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--preto);
+    margin-top: 37px;
+    margin-bottom: 159px;
+}
+
+.divH1Home{
+    width: 600px;
+    display: flex;
+}

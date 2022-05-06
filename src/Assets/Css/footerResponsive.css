@@ -1,0 +1,31 @@
+@media(max-width:835px){
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .alinhamento{
+        width: 680px;
+    }
+}
+
+@media(max-width:415px){
+    .direitos{
+        display: none;
+    }
+
+    .alinhamento{
+        justify-content: center;
+    }
+
+    .footer img{
+        margin-left: 0px;
+    }
+
+    .imgLogos{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+}

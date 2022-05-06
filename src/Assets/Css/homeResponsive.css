@@ -1,0 +1,41 @@
+@media(max-width:835px){
+    .divH1Home{
+        display: none;
+    }
+    
+    .cupcakes{
+        display: none;
+    }
+
+    .divBolos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .alinahmentoLaranja{
+        width: 680px;
+        display: flex;
+        align-items: baseline;
+    }
+
+}
+
+@media(max-width:415px){
+    .alinahmentoLaranja{
+        display: flex;
+        align-items: center;
+    }
+
+    .alinhamentoSaibaMais{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inicioSection{
+        margin-top: 0px;
+    }
+
+    .divsSaibaMais{
+        max-height: 300px;
+    }
+}

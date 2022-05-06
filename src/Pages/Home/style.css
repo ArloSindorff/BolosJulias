@@ -1,0 +1,20 @@
+:root{
+    --branco: #fff;
+    --preto: #000;
+    --marrom: #5B3331;
+    --primeira: #F4ECEC;
+    --segunda: #AED9E0;
+    --terceira: #F87700;
+    --quarta: #660027;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inicioSection{
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+}

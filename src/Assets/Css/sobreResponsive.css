@@ -1,0 +1,48 @@
+@media(max-width:835px){
+    .inicioSection{
+        margin-top: 100px;
+    }
+
+    .divPaiSobre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textoSobre{
+        margin-top: 72px;
+        max-width: 700px;
+    }
+
+    .textoNucleoSobreDois{
+        max-width: 430px;
+    }
+}
+
+@media(max-width:415px){
+    .confeiteiro{
+        max-width: 320px;
+        max-height: 349px;
+    }
+
+    .textoSobre{
+        max-width: 320px;
+    }
+
+    .inicioSectionParaBaixo{
+        margin-top: 200px;
+    }
+
+    .nucleoSectionSobreDois{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textoNucleoSobreDois{
+        max-width: 320px;
+        margin-top: 65px;
+    }
+
+    .inicioSectionMargin{
+        margin-top: 0px;
+    }
+}
